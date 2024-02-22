@@ -118,7 +118,7 @@ public class TestScriptLogin extends BaseTestSF {
 		
 		Thread.sleep(2000);
 		WebElement enterEmail = driver.findElement(By.id("un"));
-		sendingText(enterEmail, "meenunigam@gmail.com");
+		sendingText(enterEmail, "");
 		
 		WebElement continueBut = driver.findElement(By.id("continue"));
 		ClickBut(continueBut, "continue button");
