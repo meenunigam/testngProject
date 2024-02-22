@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SFSuite" class="navigator-link">
+              <span class="suite-name border-failed">SFSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SFSuite" class="navigator-link ">
+                    <span>C:\Users\meenu\eclipse-workspace\seleniumAutomationFrameWork\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SFSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SFSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SFSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SFSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SFSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SFSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 3 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SFSuite" class="hide-methods failed suite-SFSuite"> (hide)</a> <!-- hide-methods failed suite-SFSuite -->
+                      <a href="#" panel-name="suite-SFSuite" class="show-methods failed suite-SFSuite"> (show)</a> <!-- show-methods failed suite-SFSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SFSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLeads" class="method navigator-link" hash-for-method="LeadsSFTC8">LeadsSFTC8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLeads" class="method navigator-link" hash-for-method="LeadsSFTC9">LeadsSFTC9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptUserMenuDD" class="method navigator-link" hash-for-method="userMenuSFTC17">userMenuSFTC17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SFSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SFSuite" class="hide-methods passed suite-SFSuite"> (hide)</a> <!-- hide-methods passed suite-SFSuite -->
+                      <a href="#" panel-name="suite-SFSuite" class="show-methods passed suite-SFSuite"> (show)</a> <!-- show-methods passed suite-SFSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SFSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLeads" class="method navigator-link" hash-for-method="LeadsSFTC10">LeadsSFTC10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLeads" class="method navigator-link" hash-for-method="LeadsSFTC6">LeadsSFTC6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLeads" class="method navigator-link" hash-for-method="LeadsSFTC7">LeadsSFTC7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptOpty" class="method navigator-link" hash-for-method="OptySFTC11">OptySFTC11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptOpty" class="method navigator-link" hash-for-method="OptySFTC12">OptySFTC12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptOpty" class="method navigator-link" hash-for-method="OptySFTC13">OptySFTC13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptOpty" class="method navigator-link" hash-for-method="OptySFTC14">OptySFTC14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptOpty" class="method navigator-link" hash-for-method="OptySFTC15">OptySFTC15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLogin" class="method navigator-link" hash-for-method="loginSFTC1">loginSFTC1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLogin" class="method navigator-link" hash-for-method="loginSFTC2">loginSFTC2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLogin" class="method navigator-link" hash-for-method="loginSFTC3">loginSFTC3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLogin" class="method navigator-link" hash-for-method="loginSFTC4">loginSFTC4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptLogin" class="method navigator-link" hash-for-method="loginSFTC5">loginSFTC5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.sf.automationtests.TestScriptUserMenuDD" class="method navigator-link" hash-for-method="userMenuSFTC16">userMenuSFTC16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SFSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SFSuite" class="panel SFSuite">
+          <div class="suite-SFSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sf.automationtests.TestScriptUserMenuDD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userMenuSFTC17">
+                  </a> <!-- userMenuSFTC17 -->
+                  <span class="method-name">userMenuSFTC17</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#aboutTab&quot;}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MEENULAPTOP&apos;, ip: &apos;192.168.1.119&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\meenu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 924a897abcbf288e683a3b0725578911
+*** Element info: {Using=id, value=aboutTab}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.sf.automationtests.TestScriptUserMenuDD.userMenuSFTC17(TestScriptUserMenuDD.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-failed -->
+          <div class="suite-SFSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sf.automationtests.TestScriptLeads</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeadsSFTC8">
+                  </a> <!-- LeadsSFTC8 -->
+                  <span class="method-name">LeadsSFTC8</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MEENULAPTOP&apos;, ip: &apos;192.168.1.119&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\meenu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b824923fce5b073898b38863bf8f6207
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.sf.base.BaseTestSF.ClickBut(BaseTestSF.java:61)
+	at com.sf.automationtests.TestScriptLeads.LeadsSFTC8(TestScriptLeads.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeadsSFTC9">
+                  </a> <!-- LeadsSFTC9 -->
+                  <span class="method-name">LeadsSFTC9</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MEENULAPTOP&apos;, ip: &apos;192.168.1.119&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\meenu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a96cac547cebc8736ae4d01e7bf6bfd0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.sf.base.BaseTestSF.ClickBut(BaseTestSF.java:61)
+	at com.sf.automationtests.TestScriptLeads.LeadsSFTC9(TestScriptLeads.java:203)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-failed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sf.automationtests.TestScriptUserMenuDD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userMenuSFTC16">
+                  </a> <!-- userMenuSFTC16 -->
+                  <span class="method-name">userMenuSFTC16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sf.automationtests.TestScriptLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSFTC1">
+                  </a> <!-- loginSFTC1 -->
+                  <span class="method-name">loginSFTC1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSFTC2">
+                  </a> <!-- loginSFTC2 -->
+                  <span class="method-name">loginSFTC2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSFTC3">
+                  </a> <!-- loginSFTC3 -->
+                  <span class="method-name">loginSFTC3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSFTC4">
+                  </a> <!-- loginSFTC4 -->
+                  <span class="method-name">loginSFTC4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSFTC5">
+                  </a> <!-- loginSFTC5 -->
+                  <span class="method-name">loginSFTC5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sf.automationtests.TestScriptLeads</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeadsSFTC10">
+                  </a> <!-- LeadsSFTC10 -->
+                  <span class="method-name">LeadsSFTC10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeadsSFTC6">
+                  </a> <!-- LeadsSFTC6 -->
+                  <span class="method-name">LeadsSFTC6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeadsSFTC7">
+                  </a> <!-- LeadsSFTC7 -->
+                  <span class="method-name">LeadsSFTC7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sf.automationtests.TestScriptOpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OptySFTC11">
+                  </a> <!-- OptySFTC11 -->
+                  <span class="method-name">OptySFTC11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OptySFTC12">
+                  </a> <!-- OptySFTC12 -->
+                  <span class="method-name">OptySFTC12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OptySFTC13">
+                  </a> <!-- OptySFTC13 -->
+                  <span class="method-name">OptySFTC13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OptySFTC14">
+                  </a> <!-- OptySFTC14 -->
+                  <span class="method-name">OptySFTC14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OptySFTC15">
+                  </a> <!-- OptySFTC15 -->
+                  <span class="method-name">OptySFTC15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+        </div> <!-- panel SFSuite -->
+        <div panel-name="test-xml-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\meenu\eclipse-workspace\seleniumAutomationFrameWork\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SFSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.sf.utilities.sfListenerUtility&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SFLoginTest&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sf.automationtests.TestScriptLogin&quot;/&gt;
+      &lt;class name=&quot;com.sf.automationtests.TestScriptLeads&quot;/&gt;
+      &lt;class name=&quot;com.sf.automationtests.TestScriptOpty&quot;/&gt;
+      &lt;class name=&quot;com.sf.automationtests.TestScriptUserMenuDD&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SFLoginTest --&gt;
+&lt;/suite&gt; &lt;!-- SFSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SFLoginTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SFSuite');
+function tableData_SFSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'OptySFTC12')
+data.setCell(0, 2, 'com.sf.automationtests.TestScriptOpty')
+data.setCell(0, 3, 18188);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LeadsSFTC10')
+data.setCell(1, 2, 'com.sf.automationtests.TestScriptLeads')
+data.setCell(1, 3, 14472);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'OptySFTC15')
+data.setCell(2, 2, 'com.sf.automationtests.TestScriptOpty')
+data.setCell(2, 3, 14143);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OptySFTC14')
+data.setCell(3, 2, 'com.sf.automationtests.TestScriptOpty')
+data.setCell(3, 3, 13656);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'OptySFTC11')
+data.setCell(4, 2, 'com.sf.automationtests.TestScriptOpty')
+data.setCell(4, 3, 13445);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'OptySFTC13')
+data.setCell(5, 2, 'com.sf.automationtests.TestScriptOpty')
+data.setCell(5, 3, 13381);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginSFTC2')
+data.setCell(6, 2, 'com.sf.automationtests.TestScriptLogin')
+data.setCell(6, 3, 12705);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginSFTC3')
+data.setCell(7, 2, 'com.sf.automationtests.TestScriptLogin')
+data.setCell(7, 3, 10973);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'userMenuSFTC17')
+data.setCell(8, 2, 'com.sf.automationtests.TestScriptUserMenuDD')
+data.setCell(8, 3, 10457);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LeadsSFTC8')
+data.setCell(9, 2, 'com.sf.automationtests.TestScriptLeads')
+data.setCell(9, 3, 9800);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LeadsSFTC9')
+data.setCell(10, 2, 'com.sf.automationtests.TestScriptLeads')
+data.setCell(10, 3, 9425);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LeadsSFTC6')
+data.setCell(11, 2, 'com.sf.automationtests.TestScriptLeads')
+data.setCell(11, 3, 8865);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginSFTC4')
+data.setCell(12, 2, 'com.sf.automationtests.TestScriptLogin')
+data.setCell(12, 3, 8781);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LeadsSFTC7')
+data.setCell(13, 2, 'com.sf.automationtests.TestScriptLeads')
+data.setCell(13, 3, 8772);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginSFTC5')
+data.setCell(14, 2, 'com.sf.automationtests.TestScriptLogin')
+data.setCell(14, 3, 7308);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'userMenuSFTC16')
+data.setCell(15, 2, 'com.sf.automationtests.TestScriptUserMenuDD')
+data.setCell(15, 3, 6714);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginSFTC1')
+data.setCell(16, 2, 'com.sf.automationtests.TestScriptLogin')
+data.setCell(16, 3, 5486);
+window.suiteTableData['SFSuite']= { tableData: data, tableDiv: 'times-div-SFSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-SFSuite">
+              </div> <!-- times-div-SFSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sf.automationtests.TestScriptLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSFTC1</span>
+                <span class="method-start">6706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">12202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">12266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSFTC2</span>
+                <span class="method-start">18568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">31279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">31393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSFTC3</span>
+                <span class="method-start">37606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">48583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">48730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSFTC4</span>
+                <span class="method-start">55015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">63804 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">63895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSFTC5</span>
+                <span class="method-start">70119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">77434 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sf.automationtests.TestScriptLeads</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">77576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LeadsSFTC10</span>
+                <span class="method-start">83759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">98235 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">98324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LeadsSFTC6</span>
+                <span class="method-start">104738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">113610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">113708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LeadsSFTC7</span>
+                <span class="method-start">120269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">129044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">129151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LeadsSFTC8</span>
+                <span class="method-start">135438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">145397 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">145492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LeadsSFTC9</span>
+                <span class="method-start">151755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">161304 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sf.automationtests.TestScriptOpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">161388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OptySFTC11</span>
+                <span class="method-start">167681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">181133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">181235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OptySFTC12</span>
+                <span class="method-start">187495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">205686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">205780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OptySFTC13</span>
+                <span class="method-start">212231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">225615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">225701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OptySFTC14</span>
+                <span class="method-start">231940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">245597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">245678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OptySFTC15</span>
+                <span class="method-start">251914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">266057 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sf.automationtests.TestScriptUserMenuDD</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">266169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userMenuSFTC16</span>
+                <span class="method-start">272480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">279195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeAnyMethod</span>
+                <span class="method-start">279306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userMenuSFTC17</span>
+                <span class="method-start">285597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterAllMethods</span>
+                <span class="method-start">296154 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
